@@ -1,11 +1,11 @@
-# CRITICALFIRE
-CRITICALFIRE is a software demonstrator developed within the RETURN project, Spoke 4–VS4. It is an integrated model for Critical Zone–Carbon–Wildfire interaction, designed to assess how Mediterranean soil–vegetation systems respond to wildfires, drought, and management strategies under environmental change.
+# CRITICALFIRES
+CRITICALFIRES is a software demonstrator developed within the RETURN project, Spoke 4–VS4. It is an integrated model for Critical Zone–Carbon–Wildfire interaction, designed to assess how Mediterranean soil–vegetation systems respond to wildfires, drought, and management strategies under environmental change.
 
-CRITICALFIRE is a MATLAB implementation of an integrated Vegetation–Fire–Soil model designed to simulate the coupled dynamics of vegetation succession, wildfire ignition/propagation, and soil organic carbon using a RothC-style framework. The model is spatially explicit on a regular grid and uses a monthly time step. 
+CRITICALFIRES is a MATLAB implementation of an integrated Vegetation–Fire–Soil model designed to simulate the coupled dynamics of vegetation succession, wildfire ignition/propagation, and soil organic carbon using a RothC-style framework. The model is spatially explicit on a regular grid and uses a monthly time step. 
 
 ## Project context
 
-CRITICALFIRE was conceived to assess how Mediterranean soil–vegetation systems, viewed as a key component of the terrestrial Critical Zone, respond to wildfires, drought, and management strategies under environmental change. It is a simplified model for evaluating ecosystem response in Mediterranean environments, with particular attention to carbon storage capacity and to the influence of soil and vegetation characteristics on wildfire risk, including the possible effects of management actions. 
+CRITICALFIRES was conceived to assess how Mediterranean soil–vegetation systems, viewed as a key component of the terrestrial Critical Zone, respond to wildfires, drought, and management strategies under environmental change. It is a simplified model for evaluating ecosystem response in Mediterranean environments, with particular attention to carbon storage capacity and to the influence of soil and vegetation characteristics on wildfire risk, including the possible effects of management actions. 
 
 The tool is intended for both researchers, who may use it to simulate the long-term dynamics of the soil–vegetation–fire system under climate and management change, and land managers, who may use it to explore the possible effectiveness of alternative management strategies on ecosystem dynamics and health. The project documentation also states an important limitation: the model is simplified and is meant to provide scenario-based indications on ecosystem and soil dynamics, not event-specific fire forecasts.
 
@@ -73,7 +73,7 @@ The fire module includes:
 
 The monthly fire probability is described as depending on a baseline annual fire parameter, vegetation-dependent flammability, seasonality, and soil-moisture limitation. Fire spread is implemented as threshold-based propagation to neighboring cells, iterated up to a prescribed maximum number of steps; in the simulations an 8-neighbor propagation rule is used with a maximum of 10 iterations. 
 
-The project sheet also states that CRITICALFIRE can incorporate either a simplified propagation routine or a more refined propagation model such as Propagator. 
+The project sheet also states that CRITICALFIRES can incorporate either a simplified propagation routine or a more refined propagation model such as Propagator. 
 
 ## Soil carbon module
 
